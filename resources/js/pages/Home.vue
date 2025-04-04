@@ -1,6 +1,8 @@
 <template>
     <VApp>
-        <VAppBar title="Some Application">ASDF</VAppBar>
+        <VAppBar title="Some Application">
+            <div class="text-teal-500">Appended</div>
+        </VAppBar>
         <VNavigationDrawer>
             <v-list nav>
                 <v-list-item title="Navigation drawer" link></v-list-item>
